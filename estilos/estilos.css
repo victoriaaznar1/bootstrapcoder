@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 nav{
     display: flex;
     list-style: none;
@@ -259,8 +261,58 @@ footer{
     }
 }
 
+.gradiente {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(45deg, rgb(41, 114, 38), yellow,green,white);
+}
+
+.cuadro{
+    border: 3px solid black;
+    width: 110px;
+    height: 110px;
+    background-color: transparent;
+}
+.rojo{
+    width: 100px;
+    height: 100px;background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    transform: translate(20px ,20px);
+    transform: rotate(180deg);
+    transform: scale(3,2);
+    transition: all 3s;
 
 
+}
+
+.rojo:hover{
+background-color: green;
+color: white;
+opacity: 1;
+transform: scale(1.2) rotate(180deg) ;
+
+}
+
+.animaciones{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;
+ }
+ 
+
+
+.violet{
+    background-color: violet;
+}
 
 
 
