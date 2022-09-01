@@ -121,9 +121,7 @@ img {
     justify-content: center
 }
 
-nav ul li{
-    list-style-type: none ;
-}
+
 
 nav ul, .ad, article, aside{
     color:rgb(139, 172, 42);
@@ -181,8 +179,8 @@ footer{
     }
    
        
-    
-    img{
+    img
+    {
         width: 350px;
         height: 300px;
     }
@@ -199,10 +197,7 @@ footer{
         "nav contenido   ad"
         "footer  footer  footer";
     }
-     nav ul{
-        flex-direction: row;
-        border: 2px solid black; 
-     }
+     
      
     header, h1, h2, a{
         color:#3a3548;
