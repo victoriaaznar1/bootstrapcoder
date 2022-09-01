@@ -1,49 +1,31 @@
+@import "fuentes";
+@import "generales";
+@import "hermanos";
+@import "navbar";
+@import "media";
+
+
+
+
+
+
 *{ 
     margin: 0;
     padding: 0;
 }
-
-
-nav{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
+html {
+    font-size: 62.5%;
+    font-family: 'Dongle', sans-serif;
 }
-h1 {
-    color: brown;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    background-image: url(../images/images.jpeg);
-    background-repeat: repeat-x;
-    background-position: center;
-    padding: 20px;
-    margin: 10px;
-    border: 10px solid wheat;
-    border-radius: 10px;
 
-}
+
+
+
 .subtitulooo {
     color: rgb(54, 93, 13);
 }
-header {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: large;
-    display: grid;
-    justify-content: center;
-}
-ul{
-    list-style-type: none;
-    padding: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin: 5px;
-    border: 5px snow;
-}
+
+
 .ad{
     text-align: left;
     background-color: rgb(105, 137, 105);
@@ -51,6 +33,8 @@ ul{
     font-size: 60px;
     text-transform: uppercase;
 }
+
+
 body{
   
     background-color: beige;
@@ -63,10 +47,7 @@ body{
     min-height: 100vh;
 
 }
-li {
-    display: inline-block;
-    list-style: none;
-}
+
 
 h2 {
     color: rgb(36, 48, 13);
@@ -76,16 +57,7 @@ h2 {
     letter-spacing: 0ch;
 }
 
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-    word-spacing: 1px;
-    padding: 20px;
-}
+
 .primerparrafo{
     color: antiquewhite;
     background-color: goldenrod;
@@ -157,10 +129,7 @@ nav ul, .ad, article, aside{
     color:rgb(139, 172, 42);
     border: 3px solid white;
 }
-a{
-    color: rgb(80, 99, 79);
-    text-decoration: none;
-}
+
 
 
 header{
@@ -210,10 +179,9 @@ footer{
         justify-content: space-between;
 
     }
-    nav ul, .ad, article, aside{
-        color:rgb(118, 161, 81);
-        border: 3px solid rgba(208, 181, 111, 0.35);
-    }
+   
+       
+    
     img{
         width: 350px;
         height: 300px;
@@ -235,10 +203,7 @@ footer{
         flex-direction: row;
         border: 2px solid black; 
      }
-     nav ul, .ad, article, aside{
-        color:#3a3548;
-        border: 0px;
-    }
+     
     header, h1, h2, a{
         color:#3a3548;
     }
@@ -313,3 +278,7 @@ transform: scale(1.2) rotate(180deg) ;
 .violet{
     background-color: violet;
 }
+
+
+
+
