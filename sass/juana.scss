@@ -3,23 +3,25 @@
 @import "hermanos";
 @import "navbar";
 @import "media";
+@import "mediaAni";
 
+$ancho:600px;
+$blue:blue;
+$green:green;
 
-
-
-
-
+.content__titulo{
+    background-color: $blue;
+    width: $medida*2;
+    height: $height*2;
+}
 *{ 
     margin: 0;
     padding: 0;
 }
 html {
-    font-size: 62.5%;
+    font-size: 200%;
     font-family: 'Dongle', sans-serif;
 }
-
-
-
 
 .subtitulooo {
     color: rgb(54, 93, 13);
@@ -100,22 +102,13 @@ img {
     grid-template-rows: 2fr 2fr 1fr;
 
 }
-.ulnavbar{ 
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    width: 25rem;
-    margin-right: 4rem;
-    color: black;
-
-}
 .contenido{
     justify-content: center;
     color: rgb(226, 228, 216);
 }
 .vicky{
     display: flex;
-    color: black;
+    color: rgb(42, 97, 66);
     text-decoration: none;
     flex-wrap: wrap;
     justify-content: center
